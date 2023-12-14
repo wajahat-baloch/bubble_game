@@ -9,7 +9,7 @@ function makeBubble() {
 }
 makeBubble();
 
-var timer = 6;
+var timer = 60;
 function timerFunc() {
   var timerInt = setInterval(() => {
     if (timer > 0) {

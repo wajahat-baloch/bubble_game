@@ -105,6 +105,9 @@ button:hover {
 }
 h2 {
   color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: bold;
 }
 /* Media Query for smaller screens */
@@ -115,6 +118,10 @@ h2 {
 
   .header p {
     margin: 0 3px;
+  }
+
+  .main {
+    height: 76vh;
   }
 
   .bubble {
